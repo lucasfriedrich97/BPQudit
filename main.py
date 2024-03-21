@@ -17,7 +17,7 @@ def Var(model,modelID,name):
 	  	os.mkdir('./{}/data_model{}'.format(name,modelID))
 
 	
-	dim = [2,4,6,8,10]
+	dim = [3]
 	for n in [3,4]:
 	    for l in [10,20,30,40,50]:
 	        
